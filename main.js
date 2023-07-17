@@ -75,9 +75,10 @@ function calculateTaxes(earned_income = 0, dividend_income = 0, short_capital_ga
         let total_federal_taxes = federal_income.amount + federal_short_capital_gains + federal_long_capital_gains
 
         let state_income = calculateTax(ordinary_income, state_brackets, "ordinary_income")
-        let state_capital_gains = (short_capital_gains + long_capital_gains) * state_income.marginalRate
+        let state_capital_gains = 0
+        if(ordinary_income === 0) state_capital_gains = calculateTax(short_capital_gains + long_capital_gains, state_brackets, "ordinary_income").amount
+        else state_capital_gains = (short_capital_gains + long_capital_gains) * state_income.marginalRate
         let total_state_taxes = state_income.amount + state_capital_gains
-
 
         let total_taxes = total_federal_taxes + total_state_taxes
         return total_taxes.toFixed(2)
