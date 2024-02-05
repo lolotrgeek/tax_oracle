@@ -5,52 +5,52 @@
                 {
                     "rate": 0.1,
                     "income_min": 0,
-                    "income_max": 22000
+                    "income_max": 23200
                 },
                 {
                     "rate": 0.12,
-                    "income_min": 22001,
-                    "income_max": 89450
+                    "income_min": 23201,
+                    "income_max": 94300
                 },
                 {
                     "rate": 0.22,
-                    "income_min": 89451,
-                    "income_max": 190750
+                    "income_min": 94301,
+                    "income_max": 201050
                 },
                 {
                     "rate": 0.24,
-                    "income_min": 190751,
-                    "income_max": 364200
+                    "income_min": 201051,
+                    "income_max": 383900 
                 },
                 {
                     "rate": 0.32,
-                    "income_min": 364201,
-                    "income_max": 462500
+                    "income_min": 383901,
+                    "income_max": 487450
                 },
                 {
                     "rate": 0.35,
-                    "income_min": 462501,
-                    "income_max": 693750
+                    "income_min": 487451,
+                    "income_max": 731200
                 },
                 {
                     "rate": 0.37,
-                    "income_min": 693751
+                    "income_min": 731201
                 }
             ],
             "long_term_capital_gains": [
                 {
                     "rate": 0,
                     "income_min": 0,
-                    "income_max": 83350
+                    "income_max": 94050
                 },
                 {
                     "rate": 0.15,
-                    "income_min": 83351,
-                    "income_max": 517200
+                    "income_min": 94051,
+                    "income_max": 583750
                 },
                 {
                     "rate": 0.20,
-                    "income_min": 517201
+                    "income_min": 583751
                 }
             ]
         },
@@ -58,54 +58,50 @@
             "url": "https://dor.mo.gov/taxation/individual/tax-types/income/year-changes/",
             "ordinary_income": [
                 {
-                    "rate": 0.00,
                     "income_min": 0,
-                    "income_max": 111
+                    "income_max": 1207,
+                    "rate": 0
                 },
                 {
-                    "rate": 0.015,
-                    "income_min": 112,
-                    "income_max": 1121
+                    "income_min": 1208,
+                    "income_max": 2414,
+                    "rate": 0.02
                 },
                 {
-                    "rate": 0.020,
-                    "income_min": 1122,
-                    "income_max": 2242
+                    "income_min": 2415,
+                    "income_max": 3621,
+                    "base_amount": 24,
+                    "rate": 0.025
                 },
                 {
-                    "rate": 0.025,
-                    "income_min": 2243,
-                    "income_max": 3363
+                    "income_min": 3622,
+                    "income_max": 4828,
+                    "base_amount": 54,
+                    "rate": 0.03
                 },
                 {
-                    "rate": 0.030,
-                    "income_min": 3364,
-                    "income_max": 4484
+                    "income_min": 4829,
+                    "income_max": 6035,
+                    "base_amount": 90,
+                    "rate": 0.035
                 },
                 {
-                    "rate": 0.035,
-                    "income_min": 4485,
-                    "income_max": 5605
+                    "income_min": 6036,
+                    "income_max": 7242,
+                    "base_amount": 132,
+                    "rate": 0.04
                 },
                 {
-                    "rate": 0.040,
-                    "income_min": 5606,
-                    "income_max": 6726
+                    "income_min": 7243,
+                    "income_max": 8449,
+                    "base_amount": 180,
+                    "rate": 0.045
                 },
                 {
-                    "rate": 0.045,
-                    "income_min": 6727,
-                    "income_max": 7847
-                },
-                {
-                    "rate": 0.050,
-                    "income_min": 7848,
-                    "income_max": 8968
-                },
-                {
-                    "rate": 0.053,
-                    "income_min": 8969
-                }                
+                    "income_min": 8450,
+                    "base_amount": 234,
+                    "rate": 0.0495
+                }
             ]
         }
     }
